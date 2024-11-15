@@ -1,6 +1,6 @@
 import unittest
 
-from lab6 import add 
+from add import add 
 
 class Testadd(unittest.TestCase):
     def test_add(self):
