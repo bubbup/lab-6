@@ -1,4 +1,4 @@
-name: Test Calculator
+name: Test add
 
 on:
   push:
