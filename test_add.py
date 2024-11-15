@@ -1,14 +1,14 @@
 import unittest
 
-from calculator import Calculator
+from add import Add
 
-class TestCalculator(unittest.TestCase):
+class Testadd(unittest.TestCase):
     def test_add(self):
-        result = Calculator.add(3, 7)
+        result = Add.add(3, 7)
         self.assertEqual(result, 10)
 
-        result = Calculator.add(3, -7)
+        result = Add.add(3, -7)
         self.assertEqual(result, -4)
 
-        result = Calculator.add(-3, -7)
+        result = Add.add(-3, -7)
         self.assertEqual(result, -10)
